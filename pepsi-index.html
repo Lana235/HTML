@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .roundimg {
+        width: 150px;
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .img {
+        position: relative;
+        top: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+      }
+      .pirvelidiv {
+        border-radius: 15px;
+        background: transparent;
+        position: relative;
+        border: 2px solid black;
+        width: 300px;
+        height: 600px;
+        padding: 20px;
+        background: linear-gradient(to bottom, #ff0000 0%, #66ccff 100%);
+       
+       
+    
+    }
+      .dublicate {
+         display: flex;
+
+      }
+      .daashoros { 
+        flex-direction: row;
+        justify-content: space-between ; 
+        display: flex;
+      }
+      .pataradiv {
+        border: 1px solid red;
+        position: relative;
+        height: 400px;
+        border-radius: 10px;
+        padding-top: 69px;
+        background-color: white;
+      }
+      .inputWrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 20px;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(99, 53, 99);">
+<div class="daashoros">
+    <div class="pirvelidiv">
+      <div class="img">
+        <div class="roundimg">
+          <img
+            src="https://www.nicepng.com/png/detail/288-2886475_pepsi-man.png"
+            alt="pepsi man"
+            width="150px"
+            usemap="#workkmap"
+            style="border-radius: 50%;"
+          />
+        </div>
+      </div>
+
+      <div class="pataradiv">
+        <div class="inputWrapper"></div>
+      </div>
+    </div>
+    <div class="pirvelidiv">
+      <div class="img">
+        <div class="roundimg">
+          <img
+            src="https://www.nicepng.com/png/detail/288-2886475_pepsi-man.png"
+            alt="pepsi man"
+            width="150px"
+            usemap="#workkmap"
+            style="border-radius: 50%; "
+          />
+        </div>
+      </div>
+
+      <div class="pataradiv">
+        <div class="inputWrapper"></div>
+      </div>
+    </div>
+</div>
+    <map name="workkmap"> 
+        <area shape="circle" coords="75,65,65" alt="pepsi man" href="https://www.nicepng.com/png/detail/288-2886475_pepsi-man.png" >
+        <area shape="circle" coords="75,220,65" alt="pepsi commercial" href="https://www.youtube.com/watch?v=xWocoVLQe3A" >
+    </map>
+
+  </body>
+</html>
